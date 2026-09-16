@@ -1,8 +1,8 @@
 import os
 
-from mcp.server.fastmcp import FastMCP
+from mcp.server.mcpserver import MCPServer
 
-mcp = FastMCP("MCP Froid & Climatisation")
+mcp = MCPServer("MCP Climatisation")
 
 
 @mcp.tool()
